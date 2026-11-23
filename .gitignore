@@ -1,0 +1,85 @@
+# ===================================================================
+# HealthPulse - Git Ignore Configuration
+# ===================================================================
+
+# Environment & Secrets (Never commit credentials or API keys)
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+*.local
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Build Outputs & Package Artifacts
+**/target/
+**/dist/
+**/build/
+**/out/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Dependencies
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE & Editor Files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+.factorypath
+
+# OS & Filesystem Metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Logs & Temporary Files
+*.log
+logs/
+**/logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+legacy_code_backup/
+**/legacy_code_backup/
+
+# Database Dumps & Local Data
+*.sql.gz
+*.dump
+local_db/
+h2/
+testdb.*
+
+# Vite & Frontend Caches
+.vite/
+.turbo/

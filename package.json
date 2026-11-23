@@ -1,0 +1,15 @@
+{
+  "name": "health-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Healthcare Teleconsultation Portal",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "start": "powershell -ExecutionPolicy Bypass -File ./start-all.ps1",
+    "backend": "powershell -ExecutionPolicy Bypass -File ./start-backend.ps1",
+    "frontend": "npm --prefix frontend run dev"
+  }
+}
+

@@ -1,0 +1,132 @@
+.ai-triage-modal {
+  max-width: 640px;
+}
+
+.ai-modal-header {
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+  border-bottom-color: #ddd6fe;
+}
+
+.ai-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ai-sparkle-icon {
+  font-size: 1.6rem;
+}
+
+.ai-content-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.triage-status-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-subtle);
+  padding: 12px 18px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+}
+
+.triage-lead {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.red-flag-alert-box {
+  background-color: #fff1f2;
+  border: 1.5px solid #fecdd3;
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+}
+
+.alert-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #9f1239;
+  font-size: 0.92rem;
+  margin-bottom: 8px;
+}
+
+.alert-list {
+  padding-left: 24px;
+  color: #be123c;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.ai-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ai-section-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-main);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.ai-text-box {
+  background-color: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  font-size: 0.9rem;
+  color: var(--text-main);
+  line-height: 1.5;
+  box-shadow: var(--shadow-sm);
+}
+
+.suggested-questions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.question-bubble {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid var(--accent-purple);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.q-number {
+  background-color: var(--accent-purple);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.q-text {
+  font-size: 0.86rem;
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+.patient-guide-box {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  color: #166534;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+

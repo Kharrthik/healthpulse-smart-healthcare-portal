@@ -1,0 +1,53 @@
+:root {
+  /* Color Palette */
+  --primary: #0284c7;
+  --primary-hover: #0369a1;
+  --primary-light: #e0f2fe;
+  --secondary: #0d9488;
+  --secondary-hover: #0f766e;
+  --secondary-light: #ccfbf1;
+
+  --accent-purple: #7c3aed;
+  --accent-purple-light: #f3e8ff;
+
+  --bg-main: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-subtle: #f1f5f9;
+
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+
+  --border-subtle: #e2e8f0;
+  --border-focus: #38bdf8;
+
+  /* Triage & Alert Badges */
+  --status-routine: #10b981;
+  --status-routine-bg: #d1fae5;
+  --status-urgent: #f59e0b;
+  --status-urgent-bg: #fef3c7;
+  --status-emergency: #ef4444;
+  --status-emergency-bg: #fee2e2;
+
+  --status-pending: #64748b;
+  --status-pending-bg: #f1f5f9;
+  --status-confirmed: #0284c7;
+  --status-confirmed-bg: #e0f2fe;
+  --status-completed: #059669;
+  --status-completed-bg: #d1fae5;
+  --status-cancelled: #94a3b8;
+  --status-cancelled-bg: #f1f5f9;
+
+  /* Shadows & Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 12px -2px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 12px 28px -6px rgba(15, 23, 42, 0.12);
+
+  --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
